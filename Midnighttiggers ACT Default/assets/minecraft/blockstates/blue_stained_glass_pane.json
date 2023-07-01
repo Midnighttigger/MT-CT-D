@@ -1,0 +1,10 @@
+{
+  "athena:loader":"athena:pane_ctm",
+  "ctm_textures":{
+    "center":"minecraft:block/mt-ct/glass/2-1",
+    "empty":"minecraft:block/mt-ct/glass/2-2",
+    "horizontal":"minecraft:block/mt-ct/glass/2-3",
+    "particle":"minecraft:block/mt-ct/glass/2-4",
+    "vertical":"minecraft:block/mt-ct/glass/2-5"
+  }
+}
