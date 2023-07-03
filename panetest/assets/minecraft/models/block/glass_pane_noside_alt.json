@@ -1,9 +1,0 @@
-{
-  "loader":"fusion:model",
-  "type":"connecting",
-  "connections":[{"type":"is_same_block"}],
-  "parent": "minecraft:block/template_glass_pane_noside_alt",
-  "textures": {
-    "pane": "minecraft:block/glass"
-  }
-}
