@@ -4,7 +4,7 @@
   "connections":[{"type":"is_same_block"}],
   "parent": "minecraft:block/mt-ct/f_side",
   "textures": {
-    "edge": "minecraft:block/glass_pane_top",
+    "edge": "minecraft:block/cyan_stained_glass_pane_top",
     "pane": "minecraft:block/mt-ct/glass/4-0"
   }
 }
