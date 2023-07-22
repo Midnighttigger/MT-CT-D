@@ -1,6 +1,6 @@
 {
-  "ctm":{
-  "ctm_version": 1,
+"ctm":{
+  "ctm_version":1,
   "type":"CTM",
   "layer":"TRANSLUCENT",
   "textures":["minecraft:block/mt-ct/glass/0-6"],

@@ -16,3 +16,4 @@ Midnighttiggers FCT Default -> Supports Fusion
 
 Midnighttiggers UCT Default -> ACT/MCT/FCT Compiled
 - runs on either of Athena, Fusion & CTM but mutually exclusive per one you use for UCT!
+- Does not work with CTM & will not be supported
