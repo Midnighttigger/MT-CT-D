@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/black_stained_glass"
+    }
+  },
+  "athena:loader":"athena:ctm",
+  "ctm_textures":{
+    "center":"minecraft:block/mt-ct/glass/1-1",
+    "empty":"minecraft:block/mt-ct/glass/1-2",
+    "horizontal":"minecraft:block/mt-ct/glass/1-3",
+    "particle":"minecraft:block/mt-ct/glass/1-4",
+    "vertical":"minecraft:block/mt-ct/glass/1-5"
+  }
+}

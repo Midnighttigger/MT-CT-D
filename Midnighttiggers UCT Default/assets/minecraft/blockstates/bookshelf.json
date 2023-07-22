@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/bookshelf"
+    }
+  },
+  "athena:loader":"athena:limited_pillar",
+  "ctm_textures":{
+  "bottom":"minecraft:block/bookshelf",
+  "center":"minecraft:block/bookshelf",
+  "particle":"minecraft:block/oak_planks",
+  "self":"minecraft:block/bookshelf",
+  "top":"minecraft:block/bookshelf"
+  }
+}

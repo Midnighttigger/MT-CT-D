@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/orange_stained_glass"
+    }
+  },
+  "athena:loader":"athena:ctm",
+  "ctm_textures":{
+    "center":"minecraft:block/mt-ct/glass/11-1",
+    "empty":"minecraft:block/mt-ct/glass/11-2",
+    "horizontal":"minecraft:block/mt-ct/glass/11-3",
+    "particle":"minecraft:block/mt-ct/glass/11-4",
+    "vertical":"minecraft:block/mt-ct/glass/11-5"
+  }
+}
