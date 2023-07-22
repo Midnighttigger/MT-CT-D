@@ -1,8 +1,4 @@
 {
-  "fusion":{
-  "type":"connecting",
-  "layout":"full"
-  },
   "ctm":{
   "ctm_version": 1,
   "type":"CTM",
@@ -11,5 +7,9 @@
   "extra":{
   "ignore_states":true,
   "connect_inside":true
-  }}
+  }},
+  "fusion":{
+  "type":"connecting",
+  "layout":"full"
+  }
 }
