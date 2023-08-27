@@ -1,10 +1,10 @@
 {
     "athena:loader":"athena:limited_pillar",
     "ctm_textures":{
-    "bottom":"minecraft:block/sandstone_bottom",
-    "center":"minecraft:block/sandstone_bottom",
-    "particle":"minecraft:block/sandstone_top",
-    "self":"minecraft:block/sandstone",
-    "top":"minecraft:block/sandstone"
+    "bottom":"minecraft:block/mt-ct/sandstone/0-3",
+    "center":"minecraft:block/mt-ct/sandstone/0-3",
+    "particle":"minecraft:block/mt-ct/sandstone/0-4",
+    "self":"minecraft:block/mt-ct/sandstone/0-2",
+    "top":"minecraft:block/mt-ct/sandstone/0-2"
     }
 }

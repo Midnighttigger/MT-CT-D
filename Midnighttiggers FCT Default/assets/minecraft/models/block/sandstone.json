@@ -4,8 +4,8 @@
   "connections":[{"type":"is_same_block"}],
   "parent":"minecraft:block/cube_bottom_top",
   "textures":{
-    "bottom":"minecraft:block/sandstone_bottom",
+    "bottom":"minecraft:block/mt-ct/sandstone/0-3",
     "side":"minecraft:block/mt-ct/sandstone/0-0",
-    "top":"minecraft:block/sandstone_top"
+    "top":"minecraft:block/mt-ct/sandstone/0-4"
   }
 }

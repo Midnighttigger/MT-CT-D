@@ -4,7 +4,7 @@
   "connections":[{"type":"is_same_block"}],
   "parent":"minecraft:block/cube_column",
   "textures":{
-    "end": "minecraft:block/oak_planks",
+    "end": "minecraft:block/mt-ct/bookshelf/4",
     "side": "minecraft:block/mt-ct/bookshelf/0"
   }
 }
