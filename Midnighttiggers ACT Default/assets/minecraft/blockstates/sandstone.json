@@ -1,8 +1,8 @@
 {
     "athena:loader":"athena:limited_pillar",
     "ctm_textures":{
-    "bottom":"minecraft:block/mt-ct/sandstone/0-3",
-    "center":"minecraft:block/mt-ct/sandstone/0-3",
+    "bottom":"minecraft:block/mt-ct/sandstone/0-5",
+    "center":"minecraft:block/mt-ct/sandstone/0-5",
     "particle":"minecraft:block/mt-ct/sandstone/0-4",
     "self":"minecraft:block/mt-ct/sandstone/0-2",
     "top":"minecraft:block/mt-ct/sandstone/0-2"
