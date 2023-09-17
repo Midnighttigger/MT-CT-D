@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/mt-ct/m_noside",
   "textures": {
-    "pane": "minecraft:block/orange_stained_glass"
+    "pane": "minecraft:block/mt-ct/glass/11-4"
   }
 }
