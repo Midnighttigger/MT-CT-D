@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/mt-ct/m_post",
-  "textures": {
-    "edge": "minecraft:block/magenta_stained_glass_pane_top",
-    "pane": "minecraft:block/mt-ct/glass/10-4"
-  }
-}

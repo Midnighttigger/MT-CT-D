@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/mt-ct/post",
+  "textures": {
+    "edge": "minecraft:block/pink_stained_glass_pane_top",
+    "pane": "minecraft:block/mt-ct/glass/12-4"
+  }
+}

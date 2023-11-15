@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/mt-ct/side",
+  "textures": {
+    "edge": "minecraft:block/blue_stained_glass_pane_top",
+    "pane": "minecraft:block/mt-ct/glass/2-4"
+  }
+}

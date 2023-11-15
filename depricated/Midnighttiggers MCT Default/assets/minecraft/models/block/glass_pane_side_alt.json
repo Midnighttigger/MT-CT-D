@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/mt-ct/m_side_alt",
-  "textures": {
-    "edge": "minecraft:block/glass_pane_top",
-    "pane": "minecraft:block/mt-ct/glass/0-4"
-  }
-}
