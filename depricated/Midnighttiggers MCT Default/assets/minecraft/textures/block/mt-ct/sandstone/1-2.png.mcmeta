@@ -1,0 +1,10 @@
+{"ctm":{
+  "ctm_version":1,
+  "type":"CTM",
+  "layer":"SOLID",
+  "textures":["minecraft:block/mt-ct/sandstone/1-1"],
+  "extra":{
+  "ignore_states":true,
+  "connect_inside":true
+  }}
+}

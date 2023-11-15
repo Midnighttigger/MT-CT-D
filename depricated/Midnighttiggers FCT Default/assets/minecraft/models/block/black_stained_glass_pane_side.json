@@ -1,0 +1,10 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":[{"type":"is_same_block"}],
+  "parent": "minecraft:block/mt-ct/f_side",
+  "textures": {
+    "edge": "minecraft:block/black_stained_glass_pane_top",
+    "pane": "minecraft:block/mt-ct/glass/1-0"
+  }
+}

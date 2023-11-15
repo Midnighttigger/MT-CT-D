@@ -1,0 +1,10 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":[{"type":"is_same_block"}],
+  "parent": "minecraft:block/mt-ct/f_post",
+  "textures": {
+    "edge": "minecraft:block/pink_stained_glass_pane_top",
+    "pane": "minecraft:block/mt-ct/glass/12-0"
+  }
+}

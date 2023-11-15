@@ -1,0 +1,9 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":[{"type":"is_same_block"}],
+  "parent": "minecraft:block/mt-ct/f_noside",
+  "textures": {
+    "pane": "minecraft:block/mt-ct/glass/8-0"
+  }
+}
