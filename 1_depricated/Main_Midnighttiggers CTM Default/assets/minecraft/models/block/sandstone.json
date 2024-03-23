@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/mt-ct/sandstone/0-5",
+    "side": "minecraft:block/mt-ct/sandstone/0-2",
+    "top": "minecraft:block/mt-ct/sandstone/0-4"
+  }
+}
