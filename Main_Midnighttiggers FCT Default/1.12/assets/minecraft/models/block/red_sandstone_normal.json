@@ -1,0 +1,11 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":[{"type":"is_same_block"}],
+  "parent":"minecraft:blocks/cube_bottom_top",
+  "textures":{
+    "bottom":"minecraft:blocks/mt-ct/sandstone/1-b",
+    "side":"minecraft:blocks/mt-ct/sandstone/1-s",
+    "top":"minecraft:blocks/mt-ct/sandstone/1-t"
+  }
+}

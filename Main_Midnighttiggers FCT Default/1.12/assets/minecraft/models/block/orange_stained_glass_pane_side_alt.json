@@ -1,0 +1,10 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":[{"type":"is_same_block"}],
+  "parent":"minecraft:blocks/mt-ct/side_alt",
+  "textures":{
+    "edge":"minecraft:blocks/glass_pane_top_orange",
+    "pane":"minecraft:blocks/mt-ct/glass/11"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":[{"type":"is_same_block"}],
+  "parent":"minecraft:blocks/cube_column",
+  "textures":{
+    "end":"minecraft:blocks/mt-ct/bookshelf/4",
+    "side":"minecraft:blocks/mt-ct/bookshelf/1"
+  }
+}
