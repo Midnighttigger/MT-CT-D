@@ -1,0 +1,36 @@
+{
+  "ambientocclusion":true,
+  "textures":{
+    "particle":"#pane"
+  },
+  "elements":[
+  {
+    "from":[0,0,7],
+    "to":[16,16,9],
+    "faces":{
+      "down":{"uv":[7,0,9,16],"texture":"#edge","rotation":90,"cullface":"down"},
+      "up":{"uv":[7,0,9,16],"texture":"#edge","rotation":90,"cullface":"up"},
+      "north":{"texture":"#pane"},
+      "east":{"uv":[7,0,9,16],"texture":"#edge","rotation":180,"cullface":"east"},
+      "south":{"texture":"#pane"},
+      "west":{"uv":[7,0,9,16],"texture":"#edge","rotation":180,"cullface":"west"}
+    }
+  },
+  {
+    "from":[8,0,7],
+    "to":[16,16,9],
+    "faces":{
+      "north":{"uv":[0,0,8,16],"texture":"#seast"},
+      "south":{"uv":[8,0,16,16],"texture":"#seast"}
+    }
+  },
+  {
+    "from":[0,0,7],
+    "to":[8,16,9],
+    "faces":{
+      "north":{"uv":[8,0,16,16],"texture":"#swest"},
+      "south":{"uv":[0,0,8,16],"texture":"#swest"}
+    }
+  }
+  ]
+}
