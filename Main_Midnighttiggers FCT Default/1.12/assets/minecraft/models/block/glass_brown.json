@@ -1,9 +1,0 @@
-{
-  "loader":"fusion:model",
-  "type":"connecting",
-  "connections":[{"type":"is_same_block"}],
-  "parent":"minecraft:blocks/cube_all",
-  "textures":{
-    "all":"minecraft:blocks/mt-ct/glass/3"
-  }
-}
