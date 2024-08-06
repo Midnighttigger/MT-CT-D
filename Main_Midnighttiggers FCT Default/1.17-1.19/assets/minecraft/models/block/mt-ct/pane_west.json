@@ -34,10 +34,18 @@
   },
   {
     "from":[1,0,7],
+    "to":[8,1,9],
+    "faces":{
+      "north":{"uv":[8,15,15,16],"texture":"#swest"},
+      "south":{"uv":[1,15,8,16],"texture":"#swest"}
+    }
+  },
+  {
+    "from":[1,15,7],
     "to":[8,16,9],
     "faces":{
-      "north":{"uv":[8,0,15,16],"texture":"#swest"},
-      "south":{"uv":[1,0,8,16],"texture":"#swest"}
+      "north":{"uv":[8,0,15,1],"texture":"#swest"},
+      "south":{"uv":[1,0,8,1],"texture":"#swest"}
     }
   },
   {

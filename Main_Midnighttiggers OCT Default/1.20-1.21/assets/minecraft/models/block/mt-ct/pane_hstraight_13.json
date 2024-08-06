@@ -1,0 +1,9 @@
+{
+  "parent":"minecraft:block/mt-ct/pane_hstraight",
+  "textures":{
+    "pane":"minecraft:block/mt-ct/glass/13-0",
+    "edge":"minecraft:block/mt-ct/glass/13-1",
+    "seast":"minecraft:block/mt-ct/glass/13-3",
+    "swest":"minecraft:block/mt-ct/glass/13-5"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "pane":{
+    "type":"is_same_block"
+  },
+  "ssouth":{
+    "type":"match_state",
+    "block":"minecraft:white_stained_glass_pane",
+    "properties":{"south":"true","east":["false","true"],"north":["false","true"],"west":["false","true"],"waterlogged":["false","true"]}
+  },
+  "swest":{
+    "type":"match_state",
+    "block":"minecraft:white_stained_glass_pane",
+    "properties":{"west":"true","east":["false","true"],"south":["false","true"],"north":["false","true"],"waterlogged":["false","true"]}
+  }
+  },
+  "parent":"minecraft:block/mt-ct/pane_csouth",
+  "textures":{
+    "pane":"minecraft:block/mt-ct/glass/15-0",
+    "edge":"minecraft:block/mt-ct/glass/15-1",
+    "ssouth":"minecraft:block/mt-ct/glass/15-4",
+    "swest":"minecraft:block/mt-ct/glass/15-5"
+  }
+}

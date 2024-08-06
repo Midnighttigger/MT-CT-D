@@ -1,0 +1,9 @@
+{
+  "parent":"minecraft:block/mt-ct/pane_vstraight",
+  "textures":{
+    "pane":"minecraft:block/mt-ct/glass/10-0",
+    "edge":"minecraft:block/mt-ct/glass/10-1",
+    "snorth":"minecraft:block/mt-ct/glass/10-2",
+    "ssouth":"minecraft:block/mt-ct/glass/10-4"
+  }
+}

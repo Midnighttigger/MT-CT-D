@@ -1,0 +1,6 @@
+{
+  "parent":"minecraft:block/mt-ct/chbs_north_5",
+  "textures":{
+    "texture":"minecraft:block/mt-ct/chiseled_bookshelf/2"
+  }
+}
