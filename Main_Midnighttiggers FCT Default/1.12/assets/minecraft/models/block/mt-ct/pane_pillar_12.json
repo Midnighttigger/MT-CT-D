@@ -1,0 +1,13 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "normal":{
+    "type":"is_same_block"
+  }
+  },
+  "parent":"minecraft:block/mt-ct/pane_pillar",
+  "textures":{
+    "edge":"minecraft:blocks/mt-ct/glass/12-1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":{
+  "default":{
+    "type":"is_same_block"
+  }
+  },
+  "parent":"minecraft:block/mt-ct/pane_end_north",
+  "textures":{
+    "edge":"minecraft:blocks/mt-ct/glass/16-1"
+  }
+}
