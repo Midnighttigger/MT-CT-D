@@ -1,0 +1,9 @@
+{
+  "parent":"minecraft:block/mt-ct/pane_csouth",
+  "textures":{
+    "pane":"minecraft:block/mt-ct/glass/3-0",
+    "edge":"minecraft:block/mt-ct/glass/3-1",
+    "ssouth":"minecraft:block/mt-ct/glass/3-4",
+    "swest":"minecraft:block/mt-ct/glass/3-5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent":"minecraft:block/mt-ct/pane_cross",
+  "textures":{
+    "pane":"minecraft:block/mt-ct/glass/1-0",
+    "edge":"minecraft:block/mt-ct/glass/1-1",
+    "snorth":"minecraft:block/mt-ct/glass/1-2",
+    "seast":"minecraft:block/mt-ct/glass/1-3",
+    "ssouth":"minecraft:block/mt-ct/glass/1-4",
+    "swest":"minecraft:block/mt-ct/glass/1-5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent":"minecraft:block/mt-ct/pane_east",
+  "textures":{
+    "pane":"minecraft:block/mt-ct/glass/16-0",
+    "edge":"minecraft:block/mt-ct/glass/16-1",
+    "seast":"minecraft:block/mt-ct/glass/16-3",
+    "swest":"minecraft:block/mt-ct/glass/16-5"
+  }
+}

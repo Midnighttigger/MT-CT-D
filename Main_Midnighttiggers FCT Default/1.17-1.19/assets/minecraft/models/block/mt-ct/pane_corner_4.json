@@ -1,11 +1,4 @@
 {
-  "loader":"fusion:model",
-  "type":"connecting",
-  "connections":{
-  "default":{
-    "type":"is_same_block"
-  }
-  },
   "parent":"minecraft:block/mt-ct/pane_corner",
   "textures":{
     "edge":"minecraft:block/mt-ct/glass/4-1"

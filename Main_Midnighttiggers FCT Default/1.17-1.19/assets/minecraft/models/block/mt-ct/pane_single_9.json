@@ -2,9 +2,6 @@
   "loader":"fusion:model",
   "type":"connecting",
   "connections":{
-  "default":{
-    "type":"is_same_block"
-  },
   "pane":{
     "type":"is_same_state"
   }

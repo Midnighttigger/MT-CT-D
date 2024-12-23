@@ -23,7 +23,6 @@
     {
       "from":[7,1,8],
       "to":[8,15,9],
-      "rotation":{"angle":0,"axis":"y","origin":[0,0,-1]},
       "faces":{
         "west":{"uv":[8,1,9,15],"texture":"#pane"}
       }
@@ -39,7 +38,6 @@
     {
       "from":[7,0,8],
       "to":[8,1,9],
-      "rotation":{"angle":0,"axis":"y","origin":[0,0,-1]},
       "faces":{
         "west":{"uv":[8,15,9,16],"texture":"#edges"}
       }
@@ -55,7 +53,6 @@
     {
       "from":[7,15,8],
       "to":[8,16,9],
-      "rotation":{"angle":0,"axis":"y","origin":[0,0,-1]},
       "faces":{
         "west":{"uv":[8,0,9,1],"texture":"#edges"}
       }
