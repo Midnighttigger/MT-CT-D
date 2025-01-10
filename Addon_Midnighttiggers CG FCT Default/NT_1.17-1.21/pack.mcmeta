@@ -1,7 +1,10 @@
 {
   "pack":{
-    "description":"Clear (expt tinted) Glass Default FCT Addon V5 1.17-1.21+",
+    "description":"Clear (expt tinted) Glass Default FCT Addon V6 1.17-1.21+",
     "pack_format":7,
     "supported_formats":[7,50]
+  },
+  "fusion":{
+    "min_version":"1.2.2"
   }
 }

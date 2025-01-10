@@ -7,9 +7,15 @@
       "from":[8,0,7],
       "to":[16,16,9],
       "faces":{
-        "east":{"uv":[7,0,9,16],"texture":"#edge","cullface":"east"},
-        "up":{"uv":[7,0,9,8],"rotation":90,"texture":"#edge","cullface":"up"},
-        "down":{"uv":[7,0,9,8],"rotation":90,"texture":"#edge","cullface":"down"}
+        "east":{"uv":[7,0,9,16],"texture":"#edge","cullface":"east"}
+      }
+    },
+    {
+      "from":[9,0,7],
+      "to":[16,16,9],
+      "faces":{
+        "up":{"uv":[7,0,9,7],"rotation":90,"texture":"#edge"},
+        "down":{"uv":[7,0,9,7],"rotation":90,"texture":"#edge"}
       }
     },
     {

@@ -2,7 +2,7 @@
   "loader":"fusion:model",
   "type":"connecting",
   "connections":{
-  "pane":{
+  "default":{
     "type":"is_same_block"
   },
   "edges":{

@@ -316,6 +316,29 @@
     },
     {
       "apply": {
+        "model":"minecraft:block/mt-ct/pane_pillar_6"
+      },
+      "when":{
+         "north":"true",
+         "east":"false",
+         "south":"true",
+         "west":"false"
+       }
+    },
+    {
+      "apply": {
+        "model":"minecraft:block/mt-ct/pane_pillar_6",
+		"y":90
+      },
+      "when":{
+         "north":"false",
+         "east":"true",
+         "south":"false",
+         "west":"true"
+       }
+    },
+    {
+      "apply": {
         "model":"minecraft:block/mt-ct/pane_end_north_6"
       },
       "when":{

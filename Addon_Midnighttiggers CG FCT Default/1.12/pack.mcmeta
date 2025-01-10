@@ -1,6 +1,9 @@
 {
   "pack":{
-    "description":"Clear Glass Default FCT Addon V5 1.12",
+    "description":"Clear Glass Default FCT Addon V6 1.12",
     "pack_format":3
+  },
+  "fusion":{
+    "min_version":"1.2.2"
   }
 }

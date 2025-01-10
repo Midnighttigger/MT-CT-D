@@ -1,7 +1,10 @@
 {
   "pack":{
-    "description":"Faithful32 Default FCT Addon V5 1.17-1.19",
+    "description":"Faithful32 Default FCT Addon V6 1.17-1.19",
     "pack_format":7,
     "supported_formats":[7,13]
+  },
+  "fusion":{
+    "min_version":"1.2.2"
   }
 }
