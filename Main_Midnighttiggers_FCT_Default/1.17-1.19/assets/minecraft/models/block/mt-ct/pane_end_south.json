@@ -1,6 +1,6 @@
 {
   "textures":{
-    "particle":"#pane"
+    "particle":"#edge"
   },
   "elements":[
     {
