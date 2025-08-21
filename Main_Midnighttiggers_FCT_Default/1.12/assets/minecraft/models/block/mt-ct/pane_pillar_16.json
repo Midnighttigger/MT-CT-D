@@ -1,6 +1,6 @@
 {
   "parent":"minecraft:block/mt-ct/pane_pillar",
   "textures":{
-    "edge":"minecraft:block/mt-ct/glass/16-1"
+    "edge":"minecraft:blocks/mt-ct/glass/16-1"
   }
 }

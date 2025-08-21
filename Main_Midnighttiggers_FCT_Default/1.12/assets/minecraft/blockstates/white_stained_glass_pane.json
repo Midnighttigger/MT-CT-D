@@ -2,7 +2,7 @@
   "multipart":[
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_north_left_15"
+        "model":"mt-ct/pane_north_left_15"
       },
       "when":{
         "north":"true",
@@ -12,7 +12,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_north_centre_15"
+        "model":"mt-ct/pane_north_centre_15"
       },
       "when":{
         "north":"true",
@@ -22,7 +22,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_north_top_15"
+        "model":"mt-ct/pane_north_top_15"
       },
       "when":{
         "north":"true",
@@ -32,7 +32,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_north_right_15"
+        "model":"mt-ct/pane_north_right_15"
       },
       "when":{
         "north":"true",
@@ -43,7 +43,7 @@
 
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_east_left_15"
+        "model":"mt-ct/pane_east_left_15"
       },
       "when":{
         "east":"true",
@@ -53,7 +53,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_east_centre_15"
+        "model":"mt-ct/pane_east_centre_15"
       },
       "when":{
         "east":"true",
@@ -63,7 +63,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_east_top_15"
+        "model":"mt-ct/pane_east_top_15"
       },
       "when":{
         "east":"true",
@@ -73,7 +73,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_east_right_15"
+        "model":"mt-ct/pane_east_right_15"
       },
       "when":{
         "east":"true",
@@ -84,7 +84,7 @@
 
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_south_left_15"
+        "model":"mt-ct/pane_south_left_15"
       },
       "when":{
         "south":"true",
@@ -94,7 +94,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_south_centre_15"
+        "model":"mt-ct/pane_south_centre_15"
       },
       "when":{
         "south":"true",
@@ -104,7 +104,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_south_top_15"
+        "model":"mt-ct/pane_south_top_15"
       },
       "when":{
         "south":"true",
@@ -114,7 +114,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_south_right_15"
+        "model":"mt-ct/pane_south_right_15"
       },
       "when":{
         "south":"true",
@@ -125,7 +125,7 @@
 
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_west_left_15"
+        "model":"mt-ct/pane_west_left_15"
       },
       "when":{
         "west":"true",
@@ -135,7 +135,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_west_centre_15"
+        "model":"mt-ct/pane_west_centre_15"
       },
       "when":{
         "west":"true",
@@ -145,7 +145,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_west_top_15"
+        "model":"mt-ct/pane_west_top_15"
       },
       "when":{
         "west":"true",
@@ -155,7 +155,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_west_right_15"
+        "model":"mt-ct/pane_west_right_15"
       },
       "when":{
         "west":"true",
@@ -165,7 +165,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15",
+        "model":"mt-ct/pane_pillar_15",
         "y":90
       },
       "when":{
@@ -177,7 +177,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15",
+        "model":"mt-ct/pane_pillar_15",
         "y":90
       },
       "when":{
@@ -189,7 +189,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15"
+        "model":"mt-ct/pane_pillar_15"
       },
       "when":{
          "north":"true",
@@ -200,7 +200,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15",
+        "model":"mt-ct/pane_pillar_15",
         "y":90
       },
       "when":{
@@ -212,7 +212,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15"
+        "model":"mt-ct/pane_pillar_15"
       },
       "when":{
          "north":"true",
@@ -223,7 +223,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15",
+        "model":"mt-ct/pane_pillar_15",
         "y":90
       },
       "when":{
@@ -235,7 +235,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_corner_15",
+        "model":"mt-ct/pane_corner_15",
         "y":180
       },
       "when":{
@@ -247,7 +247,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15"
+        "model":"mt-ct/pane_pillar_15"
       },
       "when":{
          "north":"false",
@@ -258,7 +258,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_corner_15",
+        "model":"mt-ct/pane_corner_15",
         "y":270
       },
       "when":{
@@ -270,7 +270,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15",
+        "model":"mt-ct/pane_pillar_15",
         "y":90
       },
       "when":{
@@ -282,7 +282,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_corner_15"
+        "model":"mt-ct/pane_corner_15"
       },
       "when":{
          "north":"false",
@@ -293,7 +293,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15"
+        "model":"mt-ct/pane_pillar_15"
       },
       "when":{
          "north":"true",
@@ -304,7 +304,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_corner_15",
+        "model":"mt-ct/pane_corner_15",
         "y":90
       },
       "when":{
@@ -316,7 +316,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15"
+        "model":"mt-ct/pane_pillar_15"
       },
       "when":{
          "north":"true",
@@ -327,7 +327,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_pillar_15",
+        "model":"mt-ct/pane_pillar_15",
 		"y":90
       },
       "when":{
@@ -339,7 +339,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_end_north_15"
+        "model":"mt-ct/pane_end_north_15"
       },
       "when":{
          "north":"true",
@@ -350,7 +350,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_end_east_15"
+        "model":"mt-ct/pane_end_east_15"
       },
       "when":{
          "north":"false",
@@ -361,7 +361,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_end_south_15"
+        "model":"mt-ct/pane_end_south_15"
       },
       "when":{
          "north":"false",
@@ -372,7 +372,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_end_west_15"
+        "model":"mt-ct/pane_end_west_15"
       },
       "when":{
          "north":"false",
@@ -383,7 +383,7 @@
     },
     {
       "apply": {
-        "model":"minecraft:block/mt-ct/pane_single_15"
+        "model":"mt-ct/pane_single_15"
       },
       "when":{
         "north":"false",

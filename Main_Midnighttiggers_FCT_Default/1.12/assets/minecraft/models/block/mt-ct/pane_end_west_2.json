@@ -1,6 +1,6 @@
 {
   "parent":"minecraft:block/mt-ct/pane_end_west",
   "textures":{
-    "edge":"minecraft:block/mt-ct/glass/2-1"
+    "edge":"minecraft:blocks/mt-ct/glass/2-1"
   }
 }

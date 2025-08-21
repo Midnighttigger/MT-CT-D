@@ -4,7 +4,7 @@
   "connections":[{"type":"is_same_block"}],
   "parent":"minecraft:block/cube_column",
   "textures":{
-    "end":"minecraft:block/mt-ct/bookshelf/1",
-    "side":"minecraft:block/mt-ct/bookshelf/0"
+    "end":"minecraft:blocks/mt-ct/bookshelf/1",
+    "side":"minecraft:blocks/mt-ct/bookshelf/0"
   }
 }

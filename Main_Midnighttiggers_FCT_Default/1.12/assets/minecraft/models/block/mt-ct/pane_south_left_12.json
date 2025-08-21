@@ -3,18 +3,18 @@
   "type":"connecting",
   "connections":{
   "pane":{
-    "type":"is_same_block"
+    "type":"match_state","block":"minecraft:stained_glass_pane","properties":{"north":["false","true"],"east":["false","true"],"south":["false","true"],"west":["false","true"],"color":"pink"}
   },
   "edges":{
     "type":"match_state",
-    "block":"minecraft:pink_stained_glass_pane",
-    "properties":{"south":"true","east":["false","true"],"north":["false","true"],"west":["false","true"],"waterlogged":["false","true"]}
+    "block":"minecraft:stained_glass_pane",
+    "properties":{"south":"true","east":["false","true"],"north":["false","true"],"west":["false","true"],"color":"pink"}
   }
   },
   "parent":"minecraft:block/mt-ct/pane_south_left",
   "textures":{
-    "pane":"minecraft:block/mt-ct/glass/12-0",
-    "edge":"minecraft:block/mt-ct/glass/12-1",
-    "edges":"minecraft:block/mt-ct/glass/12-2"
+    "pane":"minecraft:blocks/mt-ct/glass/12-0",
+    "edge":"minecraft:blocks/mt-ct/glass/12-1",
+    "edges":"minecraft:blocks/mt-ct/glass/12-2"
   }
 }

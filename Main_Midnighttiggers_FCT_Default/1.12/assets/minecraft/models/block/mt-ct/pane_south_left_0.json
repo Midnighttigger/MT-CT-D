@@ -8,13 +8,13 @@
   "edges":{
     "type":"match_state",
     "block":"minecraft:glass_pane",
-    "properties":{"south":"true","east":["false","true"],"north":["false","true"],"west":["false","true"],"waterlogged":["false","true"]}
+    "properties":{"south":"true","east":["false","true"],"north":["false","true"],"west":["false","true"]}
   }
   },
   "parent":"minecraft:block/mt-ct/pane_south_left",
   "textures":{
-    "pane":"minecraft:block/mt-ct/glass/0-0",
-    "edge":"minecraft:block/mt-ct/glass/0-1",
-    "edges":"minecraft:block/mt-ct/glass/0-2"
+    "pane":"minecraft:blocks/mt-ct/glass/0-0",
+    "edge":"minecraft:blocks/mt-ct/glass/0-1",
+    "edges":"minecraft:blocks/mt-ct/glass/0-2"
   }
 }
