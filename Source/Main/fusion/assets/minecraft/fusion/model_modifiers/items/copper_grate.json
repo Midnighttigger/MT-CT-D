@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "minecraft:copper_grate",
+    "minecraft:waxed_copper_grate"
+  ],
+  "ignore_missing_targets": true,
+  "default_model_overrides": [
+    "minecraft:item/copper_grate"
+  ]
+}

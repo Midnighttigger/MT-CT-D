@@ -1,0 +1,476 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_0_north_occupied"
+      },
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_0_north_empty"
+      },
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_1_north_occupied"
+      },
+      "when": {
+        "facing": "north",
+        "slot_1_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_1_north_empty"
+      },
+      "when": {
+        "facing": "north",
+        "slot_1_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_2_north_occupied"
+      },
+      "when": {
+        "facing": "north",
+        "slot_2_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_2_north_empty"
+      },
+      "when": {
+        "facing": "north",
+        "slot_2_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_3_north_occupied"
+      },
+      "when": {
+        "facing": "north",
+        "slot_3_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_3_north_empty"
+      },
+      "when": {
+        "facing": "north",
+        "slot_3_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_4_north_occupied"
+      },
+      "when": {
+        "facing": "north",
+        "slot_4_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_4_north_empty"
+      },
+      "when": {
+        "facing": "north",
+        "slot_4_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_5_north_occupied"
+      },
+      "when": {
+        "facing": "north",
+        "slot_5_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_5_north_empty"
+      },
+      "when": {
+        "facing": "north",
+        "slot_5_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_0_north_occupied"
+      },
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_0_east_empty"
+      },
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_1_east_occupied"
+      },
+      "when": {
+        "facing": "east",
+        "slot_1_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_1_east_empty"
+      },
+      "when": {
+        "facing": "east",
+        "slot_1_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_2_east_occupied"
+      },
+      "when": {
+        "facing": "east",
+        "slot_2_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_2_east_empty"
+      },
+      "when": {
+        "facing": "east",
+        "slot_2_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_3_east_occupied"
+      },
+      "when": {
+        "facing": "east",
+        "slot_3_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_3_east_empty"
+      },
+      "when": {
+        "facing": "east",
+        "slot_3_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_4_east_occupied"
+      },
+      "when": {
+        "facing": "east",
+        "slot_4_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_4_east_empty"
+      },
+      "when": {
+        "facing": "east",
+        "slot_4_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_5_east_occupied"
+      },
+      "when": {
+        "facing": "east",
+        "slot_5_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_5_east_empty"
+      },
+      "when": {
+        "facing": "east",
+        "slot_5_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf",
+        "uvlock": true,
+        "y": 180
+      },
+      "when":{
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_0_south_occupied"
+      },
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_0_south_empty"
+      },
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_1_south_occupied"
+      },
+      "when": {
+        "facing": "south",
+        "slot_1_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_1_south_empty"
+      },
+      "when": {
+        "facing": "south",
+        "slot_1_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_2_south_occupied"
+      },
+      "when": {
+        "facing": "south",
+        "slot_2_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_2_south_empty"
+      },
+      "when": {
+        "facing": "south",
+        "slot_2_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_3_south_occupied"
+      },
+      "when": {
+        "facing": "south",
+        "slot_3_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_3_south_empty"
+      },
+      "when": {
+        "facing": "south",
+        "slot_3_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_4_south_occupied"
+      },
+      "when": {
+        "facing": "south",
+        "slot_4_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_4_south_empty"
+      },
+      "when": {
+        "facing": "south",
+        "slot_4_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_5_south_occupied"
+      },
+      "when": {
+        "facing": "south",
+        "slot_5_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_5_south_empty"
+      },
+      "when": {
+        "facing": "south",
+        "slot_5_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf",
+        "uvlock": true,
+        "y": 270
+      },
+      "when":{
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_0_west_occupied"
+      },
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_0_west_empty"
+      },
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_1_west_occupied"
+      },
+      "when": {
+        "facing": "west",
+        "slot_1_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_1_west_empty"
+      },
+      "when": {
+        "facing": "west",
+        "slot_1_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_2_west_occupied"
+      },
+      "when": {
+        "facing": "west",
+        "slot_2_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_2_west_empty"
+      },
+      "when": {
+        "facing": "west",
+        "slot_2_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_3_west_occupied"
+      },
+      "when": {
+        "facing": "west",
+        "slot_3_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_3_west_empty"
+      },
+      "when": {
+        "facing": "west",
+        "slot_3_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_4_west_occupied"
+      },
+      "when": {
+        "facing": "west",
+        "slot_4_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_4_west_empty"
+      },
+      "when": {
+        "facing": "west",
+        "slot_4_occupied": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_5_west_occupied"
+      },
+      "when": {
+        "facing": "west",
+        "slot_5_occupied": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mt-ct/chiseled_bookshelf_slot_5_west_empty"
+      },
+      "when": {
+        "facing": "west",
+        "slot_5_occupied": "false"
+      }
+    }
+  ]
+}

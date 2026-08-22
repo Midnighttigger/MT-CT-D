@@ -1,0 +1,42 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "translate": "resourcePack.mt-ct-d.description",
+            "with": [
+              {
+                "text": "1.3.0",
+                "color": "green"
+              },
+              {
+                "text": "1.19+",
+                "color": "aqua"
+              }
+            ],
+            "clickEvent": {
+              "action": "open_url",
+              "value": "https://github.com/Midnighttigger/MT-CT-D"
+            },
+            "hoverEvent": {
+              "action": "show_text",
+              "value": "https://github.com/Midnighttigger/MT-CT-D"
+            },
+            "fallback": "Default Connected Textures %1$s for Fusion %2$s",
+            "color": "dark_red"
+          }
+        ]
+      }
+    ],
+    "pack_format": 9,
+    "supported_formats": {"min_inclusive": 9, "max_inclusive": 64},
+    "min_format": 9,
+    "max_format": 150
+  },
+  "fusion": {
+    "min_version": "1.3.13",
+    "overrides_folder": "fusion"
+  }
+}

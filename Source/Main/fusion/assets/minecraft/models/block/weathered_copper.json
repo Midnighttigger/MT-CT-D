@@ -1,0 +1,46 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "connections": {
+    "all": {
+      "type": "and",
+      "predicates": [
+        {
+          "type": "match_block",
+          "blocks": [
+            "minecraft:copper_block",
+            "minecraft:exposed_copper",
+            "minecraft:weathered_copper",
+            "minecraft:oxidized_copper",
+            "minecraft:waxed_copper_block",
+            "minecraft:waxed_exposed_copper",
+            "minecraft:waxed_weathered_copper",
+            "minecraft:waxed_oxidized_copper"
+          ],
+          "ignore_missing": true
+        },
+        {
+          "type": "not",
+          "predicate": {
+            "type": "match_block_in_front",
+            "blocks": [
+              "minecraft:copper_block",
+              "minecraft:exposed_copper",
+              "minecraft:weathered_copper",
+              "minecraft:oxidized_copper",
+              "minecraft:waxed_copper_block",
+              "minecraft:waxed_exposed_copper",
+              "minecraft:waxed_weathered_copper",
+              "minecraft:waxed_oxidized_copper"
+            ],
+            "ignore_missing": true
+          }
+        }
+      ]
+    }
+  },
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minecraft:block/mt-ct/weathered_copper"
+  }
+}

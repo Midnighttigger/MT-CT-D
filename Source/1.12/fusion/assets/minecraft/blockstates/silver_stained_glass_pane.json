@@ -1,0 +1,252 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_side_north"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_side_east",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_side_south",
+        "y": 180
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_side_west",
+        "y": 270
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_noside_north"
+      },
+      "when": {
+        "east": "true",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_noside_east",
+        "y": 90
+      },
+      "when": {
+        "north": "true",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_noside_south",
+        "y": 180
+      },
+      "when": {
+        "north": "false",
+        "east": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_noside_west",
+        "y": 270
+      },
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_straight"
+      },
+      "when": {
+        "north": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_straight",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_straight"
+      },
+      "when": {
+        "OR": [
+          {
+            "south": "true",
+            "east": "false",
+            "north": "false"
+          },
+          {
+            "north": "true",
+            "south": "true",
+            "west": "true"
+          },
+          {
+            "north": "false",
+            "east": "false",
+            "south": "false",
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_straight",
+        "y": 90
+      },
+      "when": {
+        "OR": [
+          {
+            "west": "true",
+            "south": "false",
+            "east": "false"
+          },
+          {
+            "north": "true",
+            "east": "true",
+            "south": "false",
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_corner"
+      },
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_corner",
+        "y": 90
+      },
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_corner",
+        "y": 180
+      },
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_corner",
+        "y": 270
+      },
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_end"
+      },
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_end",
+        "y": 90
+      },
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_end",
+        "y": 180
+      },
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_end",
+        "y": 270
+      },
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:mt-ct/light_gray_glass_pane_post"
+      },
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false"
+      }
+    }
+  ]
+}

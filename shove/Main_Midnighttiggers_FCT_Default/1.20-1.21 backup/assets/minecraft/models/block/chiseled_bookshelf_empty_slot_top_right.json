@@ -1,0 +1,120 @@
+{
+  "loader": "fusion:model",
+  "type": "composite",
+  "textures": {
+    "texture": "minecraft:block/mt-ct/chiseled_bookshelf_empty"
+  },
+  "models": [
+    [
+      {
+        "model": {
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "texture": {
+              "type": "match_state",
+              "blocks": [
+                "minecraft:chiseled_bookshelf"
+              ],
+              "properties": {
+                "facing": ["north"]
+              },
+              "ignore_missing": true
+            }
+          },
+          "parent": "minecraft:block/template_chiseled_bookshelf_slot_top_right"
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:chiseled_bookshelf"
+          ],
+          "properties": {
+            "facing": ["north"]
+          },
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "texture": {
+              "type": "match_state",
+              "blocks": [
+                "minecraft:chiseled_bookshelf"
+              ],
+              "properties": {
+                "facing": ["east"]
+              },
+              "ignore_missing": true
+            }
+          },
+          "parent": "minecraft:block/template_chiseled_bookshelf_slot_top_right"
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:chiseled_bookshelf"
+          ],
+          "properties": {
+            "facing": ["east"]
+          },
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "texture": {
+              "type": "match_state",
+              "blocks": [
+                "minecraft:chiseled_bookshelf"
+              ],
+              "properties": {
+                "facing": ["south"]
+              },
+              "ignore_missing": true
+            }
+          },
+          "parent": "minecraft:block/template_chiseled_bookshelf_slot_top_right"
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:chiseled_bookshelf"
+          ],
+          "properties": {
+            "facing": ["south"]
+          },
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "texture": {
+              "type": "match_state",
+              "blocks": [
+                "minecraft:chiseled_bookshelf"
+              ],
+              "properties": {
+                "facing": ["west"]
+              },
+              "ignore_missing": true
+            }
+          },
+          "parent": "minecraft:block/template_chiseled_bookshelf_slot_top_right"
+        }
+      }
+    ]
+  ]
+}

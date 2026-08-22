@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/mt-ct/chiseled_bookshelf_slot_4_west",
+  "textures": {
+    "texture": "minecraft:block/mt-ct/chiseled_bookshelf_empty"
+  }
+}

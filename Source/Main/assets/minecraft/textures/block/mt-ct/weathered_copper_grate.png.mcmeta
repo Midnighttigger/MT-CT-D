@@ -1,0 +1,13 @@
+{
+  "fusion": {
+    "type": "connecting",
+    "render_type": "cutout",
+    "layout": "pieced",
+    "sub_texture": {
+      "type": "continuous",
+      "rows": 1,
+      "columns": 3
+    },
+    "per_tile_animation": true
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "loader": "fusion:model",
+  "type": "composite",
+  "models": [
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "connecting",
+        "parent": "minecraft:block/block",
+        "textures": {
+          "particle": "#all"
+        },
+        "elements": [
+          {
+            "from": [0, 0, 0],
+            "to": [16, 16, 16],
+            "faces": {
+              "north": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "north"}
+            }
+          },
+          {
+            "from": [15.998, 0.002, 0.002],
+            "to": [0.002, 15.998, 15.998],
+            "faces": {
+              "north": {"uv": [0, 0, 16, 16], "texture": "#all_alt"}
+            }
+          }
+        ]
+      },
+      "condition": {
+        "type": "not",
+        "predicate": {
+          "type": "match_block",
+          "blocks": [
+            "minecraft:copper_grate",
+            "minecraft:exposed_copper_grate",
+            "minecraft:weathered_copper_grate",
+            "minecraft:oxidized_copper_grate",
+            "minecraft:waxed_copper_grate",
+            "minecraft:waxed_exposed_copper_grate",
+            "minecraft:waxed_weathered_copper_grate",
+            "minecraft:waxed_oxidized_copper_grate"
+          ],
+          "offset": [0, 0, -1],
+          "ignore_missing": true
+        }
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "connecting",
+        "parent": "minecraft:block/block",
+        "textures": {
+          "particle": "#all"
+        },
+        "elements": [
+          {
+            "from": [0, 0, 0],
+            "to": [16, 16, 16],
+            "faces": {
+              "south": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "south"}
+            }
+          },
+          {
+            "from": [15.998, 0.002, 0.002],
+            "to": [0.002, 15.998, 15.998],
+            "faces": {
+              "south": {"uv": [0, 0, 16, 16], "texture": "#all_alt"}
+            }
+          }
+        ]
+      },
+      "condition": {
+        "type": "not",
+        "predicate": {
+          "type": "match_block",
+          "blocks": [
+            "minecraft:copper_grate",
+            "minecraft:exposed_copper_grate",
+            "minecraft:weathered_copper_grate",
+            "minecraft:oxidized_copper_grate",
+            "minecraft:waxed_copper_grate",
+            "minecraft:waxed_exposed_copper_grate",
+            "minecraft:waxed_weathered_copper_grate",
+            "minecraft:waxed_oxidized_copper_grate"
+          ],
+          "offset": [0, 0, 1],
+          "ignore_missing": true
+        }
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "connecting",
+        "parent": "minecraft:block/block",
+        "textures": {
+          "particle": "#all"
+        },
+        "elements": [
+          {
+            "from": [0, 0, 0],
+            "to": [16, 16, 16],
+            "faces": {
+              "west": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "west"}
+            }
+          },
+          {
+            "from": [15.998, 0.002, 0.002],
+            "to": [0.002, 15.998, 15.998],
+            "faces": {
+              "east": {"uv": [0, 0, 16, 16], "texture": "#all_alt"}
+            }
+          }
+        ]
+      },
+      "condition": {
+        "type": "not",
+        "predicate": {
+          "type": "match_block",
+          "blocks": [
+            "minecraft:copper_grate",
+            "minecraft:exposed_copper_grate",
+            "minecraft:weathered_copper_grate",
+            "minecraft:oxidized_copper_grate",
+            "minecraft:waxed_copper_grate",
+            "minecraft:waxed_exposed_copper_grate",
+            "minecraft:waxed_weathered_copper_grate",
+            "minecraft:waxed_oxidized_copper_grate"
+          ],
+          "offset": [-1, 0, 0],
+          "ignore_missing": true
+        }
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "connecting",
+        "parent": "minecraft:block/block",
+        "textures": {
+          "particle": "#all"
+        },
+        "elements": [
+          {
+            "from": [0, 0, 0],
+            "to": [16, 16, 16],
+            "faces": {
+              "east": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "east"}
+            }
+          },
+          {
+            "from": [15.998, 0.002, 0.002],
+            "to": [0.002, 15.998, 15.998],
+            "faces": {
+              "west": {"uv": [0, 0, 16, 16], "texture": "#all_alt"}
+            }
+          }
+        ]
+      },
+      "condition": {
+        "type": "not",
+        "predicate": {
+          "type": "match_block",
+          "blocks": [
+            "minecraft:copper_grate",
+            "minecraft:exposed_copper_grate",
+            "minecraft:weathered_copper_grate",
+            "minecraft:oxidized_copper_grate",
+            "minecraft:waxed_copper_grate",
+            "minecraft:waxed_exposed_copper_grate",
+            "minecraft:waxed_weathered_copper_grate",
+            "minecraft:waxed_oxidized_copper_grate"
+          ],
+          "offset": [1, 0, 0],
+          "ignore_missing": true
+        }
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "connecting",
+        "parent": "minecraft:block/block",
+        "textures": {
+          "particle": "#all"
+        },
+        "elements": [
+          {
+            "from": [0, 0, 0],
+            "to": [16, 16, 16],
+            "faces": {
+              "down": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "down"}
+            }
+          },
+          {
+            "from": [15.998, 0.002, 0.002],
+            "to": [0.002, 15.998, 15.998],
+            "faces": {
+              "down": {"uv": [16, 0, 0, 16], "texture": "#all_alt"}
+            }
+          }
+        ]
+      },
+      "condition": {
+        "type": "not",
+        "predicate": {
+          "type": "match_block",
+          "blocks": [
+            "minecraft:copper_grate",
+            "minecraft:exposed_copper_grate",
+            "minecraft:weathered_copper_grate",
+            "minecraft:oxidized_copper_grate",
+            "minecraft:waxed_copper_grate",
+            "minecraft:waxed_exposed_copper_grate",
+            "minecraft:waxed_weathered_copper_grate",
+            "minecraft:waxed_oxidized_copper_grate"
+          ],
+          "offset": [0, -1, 0],
+          "ignore_missing": true
+        }
+      }
+    },
+    {
+      "model": {
+        "loader": "fusion:model",
+        "type": "connecting",
+        "parent": "minecraft:block/block",
+        "textures": {
+          "particle": "#all"
+        },
+        "elements": [
+          {
+            "from": [0, 0, 0],
+            "to": [16, 16, 16],
+            "faces": {
+              "up": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "up"}
+            }
+          },
+          {
+            "from": [15.998, 0.002, 0.002],
+            "to": [0.002, 15.998, 15.998],
+            "faces": {
+              "up": {"uv": [16, 0, 0, 16], "texture": "#all_alt"}
+            }
+          }
+        ]
+      },
+      "condition": {
+        "type": "not",
+        "predicate": {
+          "type": "match_block",
+          "blocks": [
+            "minecraft:copper_grate",
+            "minecraft:exposed_copper_grate",
+            "minecraft:weathered_copper_grate",
+            "minecraft:oxidized_copper_grate",
+            "minecraft:waxed_copper_grate",
+            "minecraft:waxed_exposed_copper_grate",
+            "minecraft:waxed_weathered_copper_grate",
+            "minecraft:waxed_oxidized_copper_grate"
+          ],
+          "offset": [0, 1, 0],
+          "ignore_missing": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "loader": "fusion:model",
+  "type": "composite",
+  "textures": {
+    "pane": "minecraft:block/mt-ct/black_stained_glass",
+    "edge": "minecraft:blocks/glass_pane_top_black"
+  },
+  "models": [
+    [
+      {
+        "model": {
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": {
+              "type": "and",
+              "predicates": [
+                {
+                  "type": "is_direction",
+                  "directions": ["top", "bottom"]
+                },
+                {
+                  "type": "match_state",
+                  "blocks": [
+                    "minecraft:stained_glass_pane"
+                  ],
+                  "properties": {
+                    "color": ["black"],
+                    "north": ["true"]
+                  },
+                  "ignore_missing": true
+                }
+              ]
+            }
+          },
+          "parent": "minecraft:block/mt-ct/template_pane_end"
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:stained_glass_pane"
+          ],
+          "properties": {
+            "color": ["black"],
+            "north": ["true"]
+          },
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": {
+              "type": "and",
+              "predicates": [
+                {
+                  "type": "is_direction",
+                  "directions": ["top", "bottom"]
+                },
+                {
+                  "type": "match_state",
+                  "blocks": [
+                    "minecraft:stained_glass_pane"
+                  ],
+                  "properties": {
+                    "color": ["black"],
+                    "east": ["true"]
+                  },
+                  "ignore_missing": true
+                }
+              ]
+            }
+          },
+          "parent": "minecraft:block/mt-ct/template_pane_end"
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:stained_glass_pane"
+          ],
+          "properties": {
+            "color": ["black"],
+            "east": ["true"]
+          },
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": {
+              "type": "and",
+              "predicates": [
+                {
+                  "type": "is_direction",
+                  "directions": ["top", "bottom"]
+                },
+                {
+                  "type": "match_state",
+                  "blocks": [
+                    "minecraft:stained_glass_pane"
+                  ],
+                  "properties": {
+                    "color": ["black"],
+                    "south": ["true"]
+                  },
+                  "ignore_missing": true
+                }
+              ]
+            }
+          },
+          "parent": "minecraft:block/mt-ct/template_pane_end_alt"
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:stained_glass_pane"
+          ],
+          "properties": {
+            "color": ["black"],
+            "south": ["true"]
+          },
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": {
+              "type": "and",
+              "predicates": [
+                {
+                  "type": "is_direction",
+                  "directions": ["top", "bottom"]
+                },
+                {
+                  "type": "match_state",
+                  "blocks": [
+                    "minecraft:stained_glass_pane"
+                  ],
+                  "properties": {
+                    "color": ["black"],
+                    "west": ["true"]
+                  },
+                  "ignore_missing": true
+                }
+              ]
+            }
+          },
+          "parent": "minecraft:block/mt-ct/template_pane_end_alt"
+        }
+      }
+    ]
+  ]
+}
+

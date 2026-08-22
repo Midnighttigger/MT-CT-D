@@ -1,0 +1,13 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "connections": {
+    "pane": {
+      "type": "false"
+    }
+  },
+  "parent": "minecraft:block/mt-ct/template_pane_post",
+  "textures": {
+    "pane": "minecraft:block/mt-ct/lime_stained_glass"
+  }
+}

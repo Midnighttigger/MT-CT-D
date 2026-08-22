@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/mt-ct/template_pane_straight",
+  "textures": {
+    "pane": "minecraft:block/mt-ct/orange_stained_glass",
+    "edge": "minecraft:blocks/glass_pane_top_orange"
+  }
+}
+

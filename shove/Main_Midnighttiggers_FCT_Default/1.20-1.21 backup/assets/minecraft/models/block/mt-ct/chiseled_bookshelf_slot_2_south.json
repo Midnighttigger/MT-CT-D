@@ -1,0 +1,30 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "connections": {
+    "texture": {
+      "type": "match_state",
+      "blocks": [
+        "minecraft:chiseled_bookshelf"
+      ],
+      "properties": {
+        "facing": ["south"]
+      },
+      "ignore_missing": true
+    }
+  },
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "texture": "#texture",
+    "particle": "#texture"
+  },
+  "elements": [
+    {
+      "from": [11, 8, 16],
+      "to": [16, 16, 16],
+      "faces": {
+        "south": {"uv": [11, 0, 16, 8], "texture": "#texture", "cullface": "south"}
+      }
+    }
+  ]
+}

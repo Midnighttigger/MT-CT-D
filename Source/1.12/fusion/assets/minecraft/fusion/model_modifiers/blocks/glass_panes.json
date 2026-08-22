@@ -1,0 +1,7 @@
+{
+  "targets": [
+    "minecraft:glass_pane",
+    "minecraft:stained_glass_pane"
+  ],
+  "pane_culling_fix": true
+}

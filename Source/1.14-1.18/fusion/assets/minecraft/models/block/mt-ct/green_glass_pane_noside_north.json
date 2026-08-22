@@ -1,0 +1,341 @@
+{
+  "loader": "fusion:model",
+  "type": "composite",
+  "textures": {
+    "pane": "minecraft:block/mt-ct/green_stained_glass"
+  },
+  "models": [
+    {
+      "model": {
+        "ambientocclusion": false,
+        "loader": "fusion:model",
+        "type": "connecting",
+        "connections": {
+          "pane": {
+            "type": "true"
+          }
+        },
+        "textures": {
+          "particle": "#pane"
+        },
+        "elements": [
+          {
+            "from": [7, 1, 7],
+            "to": [9, 15, 9],
+            "faces": {
+              "south": {"uv": [7, 1, 9, 15], "texture": "#pane"}
+            }
+          }
+        ]
+      }
+    },
+    [
+      {
+        "model": {
+          "ambientocclusion": false,
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": {
+              "type": "is_direction",
+              "directions": ["left", "top", "right", "bottom"]
+            }
+          },
+          "textures": {
+            "particle": "#pane"
+          },
+          "elements": [
+            {
+              "from": [7, 15, 7],
+              "to": [8, 16, 9],
+              "faces": {
+                "south": {"uv": [0, 0, 1, 1], "texture": "pane"}
+              }
+            }
+          ]
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:green_stained_glass_pane"
+          ],
+          "properties": {
+            "east": ["true"],
+            "west": ["false"]
+          },
+          "offset": [0, 1, 0],
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "ambientocclusion": false,
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": [
+              {
+                "type": "is_direction",
+                "directions": ["top_left", "left", "bottom_left", "bottom_right", "right", "top_right"]
+              },
+              {
+                "type": "match_state",
+                "blocks": [
+                  "minecraft:green_stained_glass_pane"
+                ],
+                "properties": {
+                  "west": ["true"]
+                },
+                "ignore_missing": true
+              }
+            ]
+          },
+          "textures": {
+            "particle": "#pane"
+          },
+          "elements": [
+            {
+              "from": [7, 15, 7],
+              "to": [8, 16, 9],
+              "faces": {
+                "south": {"uv": [7, 0, 8, 1], "texture": "pane"}
+              }
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "model": {
+          "ambientocclusion": false,
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": {
+              "type": "is_direction",
+              "directions": ["left", "top", "right", "bottom"]
+            }
+          },
+          "textures": {
+            "particle": "#pane"
+          },
+          "elements": [
+            {
+              "from": [8, 15, 7],
+              "to": [9, 16, 9],
+              "faces": {
+                "south": {"uv": [15, 0, 16, 1], "texture": "pane"}
+              }
+            }
+          ]
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:green_stained_glass_pane"
+          ],
+          "properties": {
+            "east": ["false"],
+            "west": ["true"]
+          },
+          "offset": [0, 1, 0],
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "ambientocclusion": false,
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": [
+              {
+                "type": "is_direction",
+                "directions": ["top_left", "left", "bottom_left", "bottom_right", "right", "top_right"]
+              },
+              {
+                "type": "match_state",
+                "blocks": [
+                  "minecraft:green_stained_glass_pane"
+                ],
+                "properties": {
+                  "east": ["true"]
+                },
+                "ignore_missing": true
+              }
+            ]
+          },
+          "textures": {
+            "particle": "#pane"
+          },
+          "elements": [
+            {
+              "from": [8, 15, 7],
+              "to": [9, 16, 9],
+              "faces": {
+                "south": {"uv": [8, 0, 9, 1], "texture": "pane"}
+              }
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "model": {
+          "ambientocclusion": false,
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": {
+              "type": "is_direction",
+              "directions": ["left", "top", "right", "bottom"]
+            }
+          },
+          "textures": {
+            "particle": "#pane"
+          },
+          "elements": [
+            {
+              "from": [7, 0, 7],
+              "to": [8, 1, 9],
+              "faces": {
+                "south": {"uv": [0, 15, 1, 16], "texture": "pane"}
+              }
+            }
+          ]
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:green_stained_glass_pane"
+          ],
+          "properties": {
+            "east": ["true"],
+            "west": ["false"]
+          },
+          "offset": [0, -1, 0],
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "ambientocclusion": false,
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": [
+              {
+                "type": "is_direction",
+                "directions": ["top_left", "left", "bottom_left", "bottom_right", "right", "top_right"]
+              },
+              {
+                "type": "match_state",
+                "blocks": [
+                  "minecraft:green_stained_glass_pane"
+                ],
+                "properties": {
+                  "west": ["true"]
+                },
+                "ignore_missing": true
+              }
+            ]
+          },
+          "textures": {
+            "particle": "#pane"
+          },
+          "elements": [
+            {
+              "from": [7, 0, 7],
+              "to": [8, 1, 9],
+              "faces": {
+                "south": {"uv": [7, 15, 8, 16], "texture": "pane"}
+              }
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "model": {
+          "ambientocclusion": false,
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": {
+              "type": "is_direction",
+              "directions": ["left", "top", "right", "bottom"]
+            }
+          },
+          "textures": {
+            "particle": "#pane"
+          },
+          "elements": [
+            {
+              "from": [8, 0, 7],
+              "to": [9, 1, 9],
+              "faces": {
+                "south": {"uv": [15, 15, 16, 16], "texture": "pane"}
+              }
+            }
+          ]
+        },
+        "condition": {
+          "type": "match_state",
+          "blocks": [
+            "minecraft:green_stained_glass_pane"
+          ],
+          "properties": {
+            "east": ["false"],
+            "west": ["true"]
+          },
+          "offset": [0, -1, 0],
+          "ignore_missing": true,
+          "apply_model_rotation": false
+        }
+      },
+      {
+        "model": {
+          "ambientocclusion": false,
+          "loader": "fusion:model",
+          "type": "connecting",
+          "connections": {
+            "pane": [
+              {
+                "type": "is_direction",
+                "directions": ["top_left", "left", "bottom_left", "bottom_right", "right", "top_right"]
+              },
+              {
+                "type": "match_state",
+                "blocks": [
+                  "minecraft:green_stained_glass_pane"
+                ],
+                "properties": {
+                  "east": ["true"]
+                },
+                "ignore_missing": true
+              }
+            ]
+          },
+          "textures": {
+            "particle": "#pane"
+          },
+          "elements": [
+            {
+              "from": [8, 0, 7],
+              "to": [9, 1, 9],
+              "faces": {
+                "south": {"uv": [8, 15, 9, 16], "texture": "pane"}
+              }
+            }
+          ]
+        }
+      }
+    ]
+  ]
+}

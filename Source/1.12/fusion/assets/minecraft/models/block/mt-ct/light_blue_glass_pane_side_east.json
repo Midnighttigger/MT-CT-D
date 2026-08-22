@@ -1,0 +1,44 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "connections": {
+    "pane": [
+      {
+        "type": "and",
+        "predicates": [
+          {
+            "type": "is_direction",
+            "directions": ["top_right", "right", "bottom_right", "bottom_left", "left", "top_left"]
+          },
+          {
+            "type": "is_same_block"
+          }
+        ]
+      },
+      {
+        "type": "and",
+        "predicates": [
+          {
+            "type": "is_direction",
+            "directions": ["top", "bottom"]
+          },
+          {
+            "type": "match_state",
+            "blocks": [
+              "minecraft:light_blue_stained_glass_pane"
+            ],
+            "properties": {
+              "east": ["true"]
+            },
+            "ignore_missing": true
+          }
+        ]
+      }
+    ]
+  },
+  "parent": "minecraft:block/mt-ct/template_pane_side",
+  "textures": {
+    "pane": "minecraft:block/mt-ct/light_blue_stained_glass",
+    "edge": "minecraft:blocks/glass_pane_top_light_blue"
+  }
+}
