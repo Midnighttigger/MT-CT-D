@@ -1,6 +1,6 @@
 {
   "id": "mt-ct-d",
-  "changelog": "Updated for 1.21.8\nThe crossbow now supports spectral arrows, tipped arrows, and multishot showing three arrows",
+  "changelog": "Updated for Fusion 1.3+\nNew Connected Copper Blocks and Grates\nNew Version and Directory Format",
   "version": "Fusion_1.3.0",
   "versions": {
     "curseforge": {
