@@ -1,6 +1,6 @@
 {
   "id": "mt-ct-d",
-  "changelog": "Updated for Fusion 1.3+\nNew Connected Copper Blocks and Grates\nNew Version and Directory Format",
+  "changelog": "<h2>V1.3.0</h2>\n<li>Updated for Fusion 1.3+</li>\n<li>New Connected Copper Blocks and Grates</li>\n<li>New Version and Directory Format</li>\n<li>Improved Glass panes for higher resolution packs</li>",
   "version": "Fusion_1.3.0",
   "versions": {
     "curseforge": {
@@ -23,7 +23,7 @@
     "curseforge": [
       {
         "slug": "fusion-connected-textures",
-        "projectID": "854949",
+        "projectID": 854949,
         "type": "embeddedLibrary"
       }
     ],

@@ -1,0 +1,5 @@
+(cd ./../../PackUploader/data/update && rm "update.json" "pack.zip") ; cp -i "./1.12/update.json" "./../../PackUploader/data/update" && (cd ./1.12 && zip -r - .)>"./../../PackUploader/data/update/pack.zip"
+
+(cd ./../../PackUploader/data/update && rm "update.json" "pack.zip") ; cp -i "./1.14-1.18/update.json" "./../../PackUploader/data/update" && (cd ./1.14-1.18 && zip -r - .)>"./../../PackUploader/data/update/pack.zip"
+
+(cd ./../../PackUploader/data/update && rm "update.json" "pack.zip") ; cp -i "./Main/update.json" "./../../PackUploader/data/update" && (cd ./Main && zip -r - .)>"./../../PackUploader/data/update/pack.zip"

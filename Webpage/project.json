@@ -9,34 +9,40 @@
     "optifine": false,
     "video": false,
     "github": "https://github.com/Midnighttigger/MT-CT-D",
-    "version": "1.0.0",
+    "version": "Fusion_1.3.0",
     "versions": {
       "curseforge": {
         "type": "after",
-        "version": "1.12",
+        "version": "1.19",
+        "snapshots": false
       },
       "planetminecraft": {
-        "type": "exact",
-        "version": "1.21.11"
+        "type": "latest"
       },
       "modrinth": {
         "type": "after",
-        "version": "1.12",
+        "version": "1.19",
+        "snapshots": false
       }
     },
     "images": [
       {
-        "name": "Clean Connected Textures",
-        "description": "Available in V6 with Fusion 1.2.2+",
-        "file": "clean_connected_textures",
+        "name": "Glass, Glass panes, Sandstone, Copper Blocks and Grates, Bookshelves",
+        "description": "Copper Blocks & Grates are new with 1.0.0 on Fusion 1.3+",
+        "file": "fct_caption",
         "embed": true,
         "featured": true
       },
       {
+        "name": "Clean Connected Textures",
+        "description": "Available in V6 with Fusion 1.2.2+",
+        "file": "clean_connected_textures",
+        "embed": true
+      },
+      {
         "name": "A screenshot with the features",
         "description": "A screenshot with the features",
-        "file": "a_screenshot_with_the_features",
-        "embed": true
+        "file": "a_screenshot_with_the_features"
       },
       {
         "name": "New Tinted Glass Textures",
