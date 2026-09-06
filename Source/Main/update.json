@@ -22,13 +22,13 @@
       {
         "slug": "fusion-connected-textures",
         "projectID": 854949,
-        "type": "embeddedLibrary"
+        "type": "requiredDependency"
       }
     ],
     "modrinth": [
       {
         "project_id": "p19vrgc2",
-        "dependency_type": "embedded"
+        "dependency_type": "required"
       }
     ]
   }

@@ -34,8 +34,14 @@
         "featured": true
       },
       {
+        "name": "Connected Copper Blocks and Grates",
+        "description": "New Connected Copper Blocks and Grates for 1.0.0+ on Fusion 1.3+",
+        "file": "Various_Copper_Grates",
+        "embed": true
+      },
+      {
         "name": "Clean Connected Textures",
-        "description": "Available in V6 with Fusion 1.2.2+",
+        "description": "Available in V6+ with Fusion 1.2.2+",
         "file": "clean_connected_textures",
         "embed": true
       },
@@ -47,8 +53,7 @@
       {
         "name": "New Tinted Glass Textures",
         "description": "New tinted Glass Textures 1.20.2 V2+ Midnighttigger's CTM Default ",
-        "file": "new_tinted_glass_textures",
-        "embed": true
+        "file": "new_tinted_glass_textures"
       },
       {
         "name": "Glass CTM",
